@@ -49,7 +49,7 @@ ssh-keygen -t rsa -b 2048 -f "id_rsa_serv1"
 ```
 ---
 
-## Homebrew & Homebrew Cask
+## Homebrew & Homebrew Cask & Homebrew-cask-upgrade 
 - Install Homebrew for applications.
 
 ```
@@ -97,6 +97,21 @@ and re-run the command
 brew update
 brew upgrade brew-cask
 brew cleanup
+```
+---
+## Copy Sensitive Creds
+- aws
+```
+cp ~/.aws/config
+cp ~/.aws/credentials
+```
+- k8s kube
+```
+cp ~/.kube/config
+```
+- SSH Authorized_keys
+```
+cp ~/.ssh/authorized_keys
 ```
 ---
 ## Keeping Things Updated
