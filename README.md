@@ -1,6 +1,6 @@
 # Build My Work PC In Less Than 30 min From Scratch
 
-I started exploring my ways build my work pc as quickly as possible. This is my process of building work pc less than a 30 min. 
+I started exploring ways build work pc as quickly as possible. This is my process of building work pc less than a 30 min. 
 
 ## Pre-requisites 
 - Copy Bash Alias. 
