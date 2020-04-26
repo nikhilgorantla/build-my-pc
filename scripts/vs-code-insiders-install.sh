@@ -27,3 +27,4 @@ code --install-extension ms-vscode.go
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension davidanson.vscode-markdownlint
+code --install-extension oderwat.indent-rainbow
