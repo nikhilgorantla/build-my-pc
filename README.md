@@ -90,6 +90,13 @@ Shell Command: Install 'code-insiders' command in PATH
 ```
 and re-run the command
 
+
+## Install kubectl Plugins
+Install kubectl Plugins. 
+```
+curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/kubectlPlugins.sh | sh
+``` 
+
 ---
 
 ## Update Homebrew and all installs
