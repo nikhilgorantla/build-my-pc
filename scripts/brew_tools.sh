@@ -28,3 +28,5 @@ brew install tldr
 #helm install
 brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/78d64252f30a12b6f4b3ce29686ab5e262eea812/Formula/kubernetes-helm.rb
 brew switch kubernetes-helm 2.9.1
+#Kubectl Plugin manager 
+brew install krew
