@@ -1,6 +1,8 @@
-### Environment Variable's ###
-# set -x key value 
+# https://medium.com/almoullim/from-bash-to-zsh-to-fish-e432f1e1b9f8
 
+### Environment Variable's ###
+# set -x key value
+set -gx PATH "$PATH:$HOME/.krew/bin"
 
 # ----------------------
 # General Aliases
