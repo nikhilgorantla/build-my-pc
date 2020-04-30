@@ -3,6 +3,7 @@
 # ----------------------
 
 export PATH="${PATH}:${HOME}/.krew/bin"
+eval "$(direnv hook bash)"
 
 # ----------------------
 # General Aliases
