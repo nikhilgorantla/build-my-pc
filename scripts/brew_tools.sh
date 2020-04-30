@@ -30,3 +30,4 @@ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/78d64252f3
 brew switch kubernetes-helm 2.9.1
 #Kubectl Plugin manager 
 brew install krew
+brew install direnv
