@@ -3,6 +3,7 @@
 ### Environment Variable's ###
 # set -x key value
 set -gx PATH "$PATH:$HOME/.krew/bin"
+eval (direnv hook fish)
 
 # ----------------------
 # General Aliases
@@ -83,4 +84,3 @@ alias gstd='git stash drop'
 alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gsts='git stash save'
-
