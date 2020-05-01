@@ -1,4 +1,4 @@
-# Build My Work PC In Less Than 30 min From Scratch
+# Build My Work Laptop In Less Than 30 min From Scratch
 
 I started exploring ways to build work pc as quickly as possible. This is my process of building work pc less than a 30 min. 
 
