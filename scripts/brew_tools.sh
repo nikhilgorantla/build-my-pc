@@ -31,3 +31,4 @@ brew switch kubernetes-helm 2.9.1
 #Kubectl Plugin manager 
 brew install krew
 brew install direnv
+brew install kafkacat
