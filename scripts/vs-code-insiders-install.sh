@@ -28,3 +28,6 @@ code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension davidanson.vscode-markdownlint
 code --install-extension oderwat.indent-rainbow
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh-explorer
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
