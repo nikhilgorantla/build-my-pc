@@ -27,3 +27,4 @@ brew cask install docker
 brew cask install obs
 brew cask install lens
 brew cask install wireshark
+brew cask install java
