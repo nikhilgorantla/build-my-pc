@@ -31,3 +31,4 @@ code --install-extension oderwat.indent-rainbow
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode-remote.remote-ssh-explorer
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-mssql.mssql
