@@ -12,6 +12,30 @@ eval (direnv hook fish)
 ## Change Directories ##
 alias stash='cd /Users/nikhilgorantla/Documents/codebase'
 
+# ----------------------
+# K8s Debug
+# ----------------------
+
+alias ndp='echo  -----------  enter 'nsenter' for command line  ----------- \n
+                 -----------  Network command pod not on host network  ----------- &&
+           kubectl run --generator=run-pod/v1 tmp-shell --rm -i --tty --image nicolaka/netshoot -- /bin/bash'
+
+
+alias hndp='echo  -----------  enter 'nsenter' for command line  ----------- \n
+                 -----------  Network command pod on host network  ----------- \n
+           kubectl run tmp-shell --generator=run-pod/v1 --rm -i --tty --overrides='{"spec": {"hostNetwork": true}}' --image nicolaka/netshoot -- /bin/bash'
+
+# ----------------------
+# K8s Clusters 
+# ----------------------
+
+#-----------------------------------
+#Environemts
+
+alias eks-a='kubectl ctx < Cluster Name>'
+alias eks-b='kubectl ctx < Cluster Name>'
+
+#-----------------------------------
 
 # ----------------------
 # K8s Aliases
