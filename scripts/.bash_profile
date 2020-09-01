@@ -13,6 +13,13 @@ eval "$(direnv hook bash)"
 alias stash='cd /Users/nikhilgorantla/Documents/codebase'
 
 # ----------------------
+# K8s Debug
+# ----------------------
+
+alias ndp='echo  -----------  enter 'nsenter' for command line  ----------- \n
+                 -----------  Network command pod not on host network  ----------- &&
+           kubectl run --generator=run-pod/v1 tmp-shell --rm -i --tty --image nicolaka/netshoot -- /bin/bash'
+# ----------------------
 # K8s Aliases
 # ----------------------
 alias k='kubectl'
