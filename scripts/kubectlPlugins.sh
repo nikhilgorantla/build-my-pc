@@ -21,4 +21,5 @@ kubectl krew install status
 kubectl krew install tree
 kubectl krew install view-allocations
 kubectl krew install view-secret
-
+kubectl krew install gadget
+kubectl krew install kuttl
