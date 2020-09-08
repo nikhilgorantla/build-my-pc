@@ -35,3 +35,4 @@ brew install direnv
 brew install kafkacat
 brew install jid
 brew install fd
+brew install hey
