@@ -71,7 +71,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 
 ## Install Brew Apps
 
-Install core applicaitons.
+- Install core applicaitons.
 
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/brew_tools.sh | sh
@@ -79,7 +79,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 
 ## Install Brew Cask Apps
 
-Install tools
+- Install tools
 
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/brewcask_apps.sh | sh
@@ -87,7 +87,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 
 ## Install Mac Apps
 
-Install Mac Store applicaitons.
+- Install Mac Store applications.
 
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/mas_apps.sh | sh
@@ -95,7 +95,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 
 ## Install PiP Apps
 
-Install PiP Packages.
+- Install PiP Packages.
 
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/pip_packages.sh | sh
@@ -103,7 +103,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 
 ## Install NPM Apps
 
-Install NPM packages.
+- Install NPM packages.
 
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/npm_packages.sh | sh
@@ -111,7 +111,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 
 ## Install VSCode Extensions
 
-Run the following to install all extensions.
+- Run the following to install all extensions.
 
 ```shell
 curl -L  https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/vs-code-extension.sh | sh
@@ -128,7 +128,7 @@ and re-run the command
 
 ## Install kubectl Plugins
 
-Install kubectl Plugins.
+- Install kubectl Plugins.
 
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/kubectlPlugins.sh | sh
@@ -161,13 +161,13 @@ cp ~/.ssh/authorized_keys
 
 ## Keeping Things Updated
 
-Laptop House keeping
+- Laptop House keeping
 
 ```shell
 curl -L  https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/housekeeping.sh | sh
 ```
 
-Upgrade all Brew Apps
+- Upgrade all Brew Apps
 
 ```shell
 curl -L  https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/brew_tools_upgrade.sh | sh
