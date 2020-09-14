@@ -1,25 +1,34 @@
 #!/bin/sh
 
-## CLI TOOLS 
+echo "INSTALL KREW --> https://krew.sigs.k8s.io/docs/user-guide/setup/install/"
 
-kubectl krew install ctx
-kubectl krew install ns
-kubectl krew install access-matrix
-kubectl krew install exec-as
-kubectl krew install prompt
-kubectl krew install ingress-nginx
-kubectl krew install neat
-kubectl krew install node-shell
-kubectl krew install outdated
-kubectl krew install pod-dive
-kubectl krew install rbac-view
-kubectl krew install resource-capacity
-kubectl krew install resource-snapshot
-kubectl krew install rolesum
-kubectl krew install sniff
-kubectl krew install status
-kubectl krew install tree
-kubectl krew install view-allocations
-kubectl krew install view-secret
-kubectl krew install gadget
-kubectl krew install kuttl
+sleep 10
+
+## KREW TOOLS 
+
+PACKAGES=(
+    ctx
+    ns
+    access-matrix
+    exec-as
+    prompt
+    ingress-nginx
+    neat
+    node-shell
+    outdated
+    pod-dive
+    rbac-view
+    resource-capacity
+    resource-snapshot
+    rolesum
+    sniff
+    status
+    tree
+    view-allocations
+    view-secret
+    gadget
+    kuttl
+)
+echo "Installing Kubectl Krew Packages..."
+kubectl krew install ${PACKAGES[@]}
+

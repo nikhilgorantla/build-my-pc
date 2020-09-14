@@ -10,6 +10,8 @@ brew doctor
 
 # homebrew cask updater: https://github.com/buo/homebrew-cask-upgrade
 brew tap buo/cask-upgrade
+brew tap homebrew/cask
+brew tap homebrew/cask-versions
 
 
 

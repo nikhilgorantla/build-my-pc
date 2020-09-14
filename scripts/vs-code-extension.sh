@@ -1,0 +1,39 @@
+#!/bin/sh
+
+PACKAGES=(
+    ms-azuretools.vscode-docker
+    eamodio.gitlens
+    ms-kubernetes-tools.vscode-kubernetes-tools
+    ipedrazas.kubernetes-snippets
+    ms-python.python
+    mauve.terraform
+    vscode-icons-team.vscode-icons
+    redhat.vscode-yaml
+    visualstudioexptteam.vscodeintellicode
+    ms-vscode.csharp
+    CoenraadS.bracket-pair-colorizer
+    hookyqr.beautify 
+    WakaTime.vscode-wakatime
+    bierner.markdown-mermaid
+    bierner.markdown-preview-github-styles
+    christian-kohler.path-intellisense
+    esbenp.prettier-vscode
+    donjayamanne.githistory
+    humao.rest-client
+    tht13.html-preview-vscode
+    ms-vsliveshare.vsliveshare
+    ms-vsliveshare.vsliveshare-pack
+    ms-vscode.go
+    streetsidesoftware.code-spell-checker
+    shd101wyy.markdown-preview-enhanced
+    davidanson.vscode-markdownlint
+    oderwat.indent-rainbow
+    ms-vscode-remote.remote-containers
+    ms-vscode-remote.remote-ssh-explorer
+    ms-vscode-remote.vscode-remote-extensionpack
+    ms-mssql.mssql
+    nur.just-black
+    pkief.material-icon-theme  
+)
+echo "Installing VSCODE Exxtension..."
+code --install-extension ${PACKAGES[@]}
