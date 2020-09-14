@@ -1,4 +1,4 @@
-# Build My Work Laptop In Less Than 30 min From Scratch
+# Onboard New Macbook < 30 Min
 
 I started exploring ways to build work pc as quickly as possible. This is my process of building work pc less than a 30 min.
 
@@ -164,4 +164,10 @@ Laptop House keeping
 
 ```shell
 curl -L  https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/housekeeping.sh | sh
+```
+
+Upgrade all Brew Apps
+
+```shell
+curl -L  https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/brew_tools_upgrade.sh | sh
 ```
