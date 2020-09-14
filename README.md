@@ -1,6 +1,7 @@
-# Onboard New Macbook < 30 Min
+# Onboard New Macbook < 20 Min
 
-I started exploring ways to build work pc as quickly as possible. This is my process of building work pc less than a 30 min.
+When i got new laptop at work it took 1 whole day to onboard a new laptop? I asked my self WHY?? Can i Code it ?
+Scroll down to get know the answer
 
 ## Pre-requisites
 
