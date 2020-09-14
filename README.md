@@ -32,7 +32,7 @@ curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scri
 - Configure local Git profile
 
 ```
-git config --global user.name “Nikhil Gorantla”
+git config --global user.name “NikG”
 git config --global user.email “email@email.com”
 git config --global core.editor “code -w”
 git config --global merge.tool code
