@@ -1,6 +1,6 @@
 #!/bin/sh
 
-## CLI TOOLS 
+## BREW TOOLS 
 
 PACKAGES=(
     fish 
@@ -35,6 +35,7 @@ PACKAGES=(
     fd
     hey
     mas #mac app search // https://github.com/mas-cli/mas
+    node
 )
 echo "Installing Brew Packages..."
 brew install ${PACKAGES[@]}

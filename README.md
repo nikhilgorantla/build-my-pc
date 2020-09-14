@@ -92,6 +92,22 @@ Install Mac Store applicaitons.
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/mas_apps.sh | sh
 ```
 
+## Install PiP Apps
+
+Install PiP Packages.
+
+```shell
+curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/pip_packages.sh | sh
+```
+
+## Install NPM Apps
+
+Install NPM packages.
+
+```shell
+curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/npm_packages.sh | sh
+```
+
 ## Install VSCode Extensions
 
 Run the following to install all extensions.
