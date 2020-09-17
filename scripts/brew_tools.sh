@@ -36,6 +36,7 @@ PACKAGES=(
     hey
     mas #mac app search // https://github.com/mas-cli/mas
     node
+    gh ## github cli // https://cli.github.com/manual/
 )
 echo "Installing Brew Packages..."
 brew install ${PACKAGES[@]}
