@@ -37,6 +37,7 @@ PACKAGES=(
     mas #mac app search // https://github.com/mas-cli/mas
     node
     gh 
+    dust
 )
 echo "Upgrade Brew Packages..."
 brew upgrade ${PACKAGES[@]}
