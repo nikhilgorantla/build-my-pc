@@ -37,6 +37,8 @@ PACKAGES=(
     mas #mac app search // https://github.com/mas-cli/mas
     node
     gh ## github cli // https://cli.github.com/manual/
+    dust ## used for check disk space
+    
 )
 echo "Installing Brew Packages..."
 brew install ${PACKAGES[@]}
