@@ -32,6 +32,7 @@ PACKAGES=(
     notion
     zoomus
     clipy #can save multiple clipord entrys 
+    mtmr # Customize touchbar 
 )
 echo "Installing Cask Packages..."
 brew cask install ${PACKAGES[@]}
