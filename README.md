@@ -133,6 +133,29 @@ and re-run the command
 ```shell
 curl -L https://raw.githubusercontent.com/nikhilgorantla/build-my-pc/master/scripts/kubectlPlugins.sh | sh
 ```
+---
+
+## Install Helm-2 and Helm-3
+
+- Get Helm Install script
+```shell
+$ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
+$ chmod 700 get_helm.sh
+```
+
+- Install Helm-2
+```shell
+$ ./get_helm.sh -v v2.16.3
+$ cd /usr/local/bin/ && mv helm helm2
+$ helm2 list
+```
+
+- Install Helm-3
+```shell
+$ ./get_helm.sh
+$ cd /usr/local/bin/ && mv helm helm3
+$ helm3 list
+```
 
 ---
 
