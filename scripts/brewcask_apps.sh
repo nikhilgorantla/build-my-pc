@@ -33,6 +33,7 @@ PACKAGES=(
     zoomus
     clipy #can save multiple clipord entrys 
     mtmr # Customize touchbar 
+    another-redis-desktop-manager #Redis UI
 )
 echo "Installing Cask Packages..."
 brew cask install ${PACKAGES[@]}
