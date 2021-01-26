@@ -33,6 +33,7 @@ PACKAGES=(
     kafkacat
     jid
     fd
+    fx # search json // https://github.com/antonmedv/fx
     hey
     mas #mac app search // https://github.com/mas-cli/mas
     node
