@@ -36,4 +36,4 @@ PACKAGES=(
     another-redis-desktop-manager #Redis UI
 )
 echo "Installing Cask Packages..."
-brew cask install ${PACKAGES[@]}
+brew install --cask ${PACKAGES[@]}
