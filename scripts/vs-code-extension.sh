@@ -34,6 +34,7 @@ PACKAGES=(
     ms-mssql.mssql
     nur.just-black
     pkief.material-icon-theme  
+    yzhang.markdown-all-in-one
 )
 echo "Installing VSCODE Exxtension..."
 code --install-extension ${PACKAGES[@]}
