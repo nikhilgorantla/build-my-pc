@@ -1,7 +1,6 @@
 # Onboard New Macbook < 20 Min
 
-When i got new laptop at work it took 1 whole day to onboard a new laptop? I asked my self WHY?? Can i Code it ?
-Scroll down to find out the answer
+Script Laptop Onboarding 
 
 ## Pre-requisites
 
